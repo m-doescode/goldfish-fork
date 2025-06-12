@@ -198,6 +198,14 @@
 #define GF_EXPOSE_MATH
 #endif
 
+#ifndef GF_EXPOSE_ENTITY
+/**
+ * @~english
+ * @brief Expose entity properties
+ */
+#define GF_EXPOSE_ENTITY
+#endif
+
 #ifndef GF_EXPOSE_VERSION
 /**
  * @~english
